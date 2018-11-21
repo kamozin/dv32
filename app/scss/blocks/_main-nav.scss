@@ -52,6 +52,19 @@
         cursor: pointer;
     }
     @include mq-max (1143px) {
+        font-size: 18px;
+    }
+}
+
+.footer-wrapper {
+    .main-nav {
+        background: none;
+    }
+    .main-nav__list {
+      border: none;
+    }
+
+    .main-nav__link {
       font-size: 18px;
     }
 }

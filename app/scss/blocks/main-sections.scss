@@ -1,6 +1,4 @@
-.main {
-
-}
+.main {}
 
 .main-wrapper {
     background: #fff;
@@ -9,9 +7,11 @@
     padding-right: 15px;
 }
 
-
 .main-content {
-  display: flex;
+    display: flex; // flex-wrap: wrap;
+    // @include mq-min (768px) {
+    //   flex-wrap: nowrap;
+    // }
 }
 
 .news-content {
@@ -20,9 +20,8 @@
     padding-bottom: 30px;
 }
 
-
-
 .left-sidebar {
-    width: 320px;
     margin-left: auto;
+    width: 320px;
+    padding-top: 82px;
 }
