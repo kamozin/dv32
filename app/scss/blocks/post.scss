@@ -23,8 +23,8 @@
         opacity: 1;
     }
     h2 {
-        margin-top: 5px;
-        margin-bottom: 15px;
+        margin-top: 3px;
+        margin-bottom: 5px;
         font-size: 22px;
     }
 }
@@ -75,22 +75,25 @@
 }
 
 // Левый блок последние новости
-
 .last-post {
-  margin-bottom: 20px;
+    margin-bottom: 15px;
 }
+
 .last-title {
-    font-size: 19px;
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .last-annotation {
     font-size: 15px;
 }
 
-.post-dt {
-  font-weight: 300;
-  font-style: italic;
-  font-size: 14px;
-  margin-bottom: 8px;
-  display: block;
+.post-info {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(30, 30, 30, 0.6);
 }
